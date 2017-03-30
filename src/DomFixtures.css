@@ -1,0 +1,13 @@
+:root {
+  --mainColor: #a6b779;
+}
+.dom-fixture-container{
+    border-top:5px solid var(--mainColor);
+}
+.fixture{
+    border:3px solid var(--mainColor);
+    margin:10px 0px;
+}
+.fixture:last-child{
+    border:3px solid var(--mainColor);
+}
